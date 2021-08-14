@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import MoviesItems from "../components/MoviesItems";
+import MoviesItems from "../components/MoviesItems/MoviesItems";
 // import axios from "axios";
 import { FetchAll } from "../Services/fetch";
 

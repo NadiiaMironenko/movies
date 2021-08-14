@@ -1,19 +1,18 @@
-
+import s from "./CastList.module.css"
 
 export default function CastList({ casts }) {
   return (
     <>
-      <ul>
+      <ul >
         {casts &&
           casts.map((cast) => {
             const { id, original_name, profile_path } = cast;
 
             return (
-              <li  key={id}>
-                <img
-                  src={ `https://image.tmdb.org/t/p/original${profile_path}`
-                  }
-                  alt="profile"
+              <li className={s.castList} key={id}>
+                <img 
+                  src={`https://image.tmdb.org/t/p/original${profile_path}`}
+                  alt="profile" width="400px"
                 />
                 <p>{original_name}</p>
               </li>

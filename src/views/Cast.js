@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import PropTypes from "prop-types";
 import { FetchDetailsCasts } from "../Services/fetch";
-import CastList from "../components/CastList";
+import CastList from "../components/CastList/CastList";
 
 export default class Cast extends Component {
   state = {

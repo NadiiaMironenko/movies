@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import SearchForm from "../components/SearchForm";
 import { FetchByName } from "../Services/fetch";
-import MoviesListItems from "../components/MoviesItems";
+import MoviesListItems from "../components/MoviesItems/MoviesItems";
 
 export default class MoviesPage extends Component {
   state = {

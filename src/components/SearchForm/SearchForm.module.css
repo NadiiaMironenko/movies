@@ -1,0 +1,20 @@
+.search_form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 60px;
+}
+
+.search_form_input{
+    border-radius: 5px;
+    border-color: mediumaquamarine;
+    height: 30px;
+}
+
+.search_form_button{
+    background-color: white;
+    border-radius: 5px;
+    border-color:mediumaquamarine ;
+    cursor: pointer;
+}

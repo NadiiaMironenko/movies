@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import SearchForm from "../components/SearchForm";
+import SearchForm from "../components/SearchForm/SearchForm";
 import { FetchByName } from "../Services/fetch";
 import MoviesListItems from "../components/MoviesItems/MoviesItems";
 

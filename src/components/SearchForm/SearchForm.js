@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import swal from "sweetalert";
+import s from "./SearchForm.module.css"
 
 export default class SearchForm extends Component {
   state = {
@@ -28,12 +29,11 @@ export default class SearchForm extends Component {
   render() {
     return (
       <>
-        <form onSubmit={this.onSubmit}>
-          <label>
-            Enter the films name
-            <input type="text" onChange={this.handleInput} />
-          </label>
-          <button type="submit">Search</button>
+        <form className={s.search_form} onSubmit={this.onSubmit}>
+          <label>Enter the films name</label>
+          <input className={s.search_form_input} type="text" onChange={this.handleInput} />
+
+          <button className={s.search_form_button} type="submit">Search</button>
         </form>
       </>
     );

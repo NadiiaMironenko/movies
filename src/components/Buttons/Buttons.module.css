@@ -1,0 +1,9 @@
+.buttons{
+    list-style: none;
+    margin: 20px;
+}
+
+.buttons_text{
+    text-decoration: none;
+    color: black;
+}

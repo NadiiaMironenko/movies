@@ -6,7 +6,7 @@ import {
   Switch,
 } from "react-router-dom";
 
-import Buttons from "./Buttons";
+import Buttons from "./Buttons/Buttons";
 
 const HomePage = lazy(() =>
   import("../views/HomePage" /* webpackChunkName: "home-page" */)

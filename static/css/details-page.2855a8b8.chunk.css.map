@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/CastList/CastList.module.css"],"names":[],"mappings":"AAAA,4CACI,aAAc,CACd,YACJ","file":"details-page.2855a8b8.chunk.css","sourcesContent":[".s.castList{\r\n    margin: 0 auto;\r\n    width: 1200px;\r\n}"]}
